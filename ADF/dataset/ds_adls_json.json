@@ -1,0 +1,34 @@
+{
+    "name": "ds_adls_json",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adls_csv",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "github_repo_info.json",
+                "folderPath": "Metadata",
+                "fileSystem": "bronze"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "p_rel_url": {
+                    "type": "string"
+                },
+                "p_sink_folder": {
+                    "type": "string"
+                },
+                "p_sink_file": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

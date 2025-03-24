@@ -1,0 +1,6 @@
+selected resource name:		FetchfromgittoADLS
+selected resource type:		pipeline
+factory name:			devdatafactory17
+factory location:		eastus
+subscription id:		91d4c44c-3e7d-4762-9e07-67865b965cd8
+time of download (UTC):		Mon, 24 Mar 2025 14:11:48 GMT
