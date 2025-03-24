@@ -27,6 +27,5 @@ An end-to-end data pipeline showcasing Azure Data Engineer skills for data inges
 4. Connect Power BI to Synapse Gold container views/tables.
 
 ## Screenshots
-![ADF Pipeline](screenshots/adf_pipeline.png)  
-![Databricks Output](screenshots/databricks_output.png)  
-![Power BI Dashboard](screenshots/powerbi_dashboard.png)
+
+![Power BI Dashboard](Screenshots/Power_Bi_Desktop.png)
